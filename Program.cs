@@ -11,6 +11,14 @@ namespace c_sharp_try
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+
+            // 3. Drawing a shape
+
+            Console.WriteLine("   /|");
+            Console.WriteLine("  / |");
+            Console.WriteLine(" /  |");
+            Console.WriteLine("/___|");
+
             Console.ReadLine();
         }
     }
