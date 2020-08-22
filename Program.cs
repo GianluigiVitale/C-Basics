@@ -19,7 +19,9 @@ namespace c_sharp_try
             Console.WriteLine(" /  |");
             Console.WriteLine("/___|");
 
+
             // 4. Variables
+
 
             string characterName = "John";
             int characterAge = 35;
@@ -29,7 +31,9 @@ namespace c_sharp_try
             Console.WriteLine("He really liked the name " + characterName);
             Console.WriteLine("But didn't like being " + characterAge);
 
+
             // 5. Data Types
+
 
             string phrase = "Hi!";
             char grade = 'C';
@@ -38,6 +42,25 @@ namespace c_sharp_try
             // float gpa = 3.2;
             // decimal gpa = 3.2;
             bool isMale = true;
+
+
+            // 6. Working With Strings
+
+
+            Console.WriteLine("Gianluigi\nVitale");
+            Console.WriteLine("Gianluigi\"Vitale");
+
+            Console.WriteLine(characterName + " is " + characterAge);
+
+            Console.WriteLine(characterName.Length);
+            Console.WriteLine(characterName.ToUpper());
+            Console.WriteLine(characterName.ToLower());
+            Console.WriteLine(characterName.Contains("Jo"));
+            Console.WriteLine(characterName.IndexOf("n"));
+            Console.WriteLine(characterName.Substring(1));
+            Console.WriteLine(characterName.Substring(1, 2));
+            Console.WriteLine(characterName.Substring(characterName.IndexOf("h")));
+            Console.WriteLine(characterName[2]);
 
             Console.ReadLine();
         }
