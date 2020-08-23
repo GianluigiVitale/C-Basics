@@ -176,7 +176,7 @@ namespace c_sharp_try
             Console.WriteLine(GetMax(5, 4));
 
 
-            // 15. Building a Better Calculator
+            // 16. Building a Better Calculator
 
 
             Console.Write("Enter a number: ");
@@ -187,7 +187,7 @@ namespace c_sharp_try
 
             Console.Write("Enter a number: ");
             double numSecond = Convert.ToDouble(Console.ReadLine());
-            
+
             if (op == "+") {
                 Console.WriteLine(numFirst + numSecond);
             } else if (op == "-") {
@@ -201,6 +201,10 @@ namespace c_sharp_try
             }
 
 
+            // 17. Switch Statements
+
+
+            Console.WriteLine(GetDay(0));
 
             Console.ReadLine();
         }
@@ -224,6 +228,40 @@ namespace c_sharp_try
             result = num1 > num2 ? num1 : num2;
 
             return result;
+        }
+
+        static string GetDay(int dayNum)
+        {
+            string dayName;
+
+            switch (dayNum) {
+                case 0:
+                    dayName = "Sunday";
+                    break;
+                case 1:
+                    dayName = "Monday";
+                    break;
+                case 2:
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednesday";
+                    break;
+                case 4:
+                    dayName = "Thursday";
+                    break;
+                case 5:
+                    dayName = "Friday";
+                    break;
+                case 6:
+                    dayName = "Saturday";
+                    break;
+                default:
+                    dayName = "Invalid Day Number";
+                    break;
+            }
+
+            return dayName;
         }
     }
 }
