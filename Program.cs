@@ -62,6 +62,29 @@ namespace c_sharp_try
             Console.WriteLine(characterName.Substring(characterName.IndexOf("h")));
             Console.WriteLine(characterName[2]);
 
+
+            // 7. Working With Numbers
+
+
+            Console.WriteLine(20);
+            Console.WriteLine(21.612);
+            Console.WriteLine(5 + 3);
+            Console.WriteLine(5 / 2);       // always get an integer
+            Console.WriteLine(5 / 2.0);     // always get an decimal
+            Console.WriteLine(5 % 2);
+            Console.WriteLine((4 + 2) * 3);
+
+            int num = 6;
+            num++;
+            num--;
+            Console.WriteLine(num);
+
+            Console.WriteLine(Math.Abs(-40));
+            Console.WriteLine(Math.Pow(3, 2));
+            Console.WriteLine(Math.Sqrt(36));
+            Console.WriteLine(Math.Max(40, 30));
+            Console.WriteLine(Math.Round(4.3));
+
             Console.ReadLine();
         }
     }
