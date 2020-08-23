@@ -148,12 +148,25 @@ namespace c_sharp_try
 
             SayHi("Mike", 18);
 
+
+            // 13. Return Statement
+
+
+            Console.WriteLine(Cube(5));
+
             Console.ReadLine();
         }
 
-        static void SayHi(string name, int age)
+        static void SayHi(string name, int age)     // says hi to the user
         {
             Console.WriteLine("Hello " + name + " you are " + age);
+        }
+
+        static int Cube(int num)                   // cube of a number
+        {
+            int result = Math.Pow(num, 3);
+
+            return result;
         }
     }
 }
