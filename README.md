@@ -1,5 +1,6 @@
-C# exercises following this youtube tutorial: https://www.youtube.com/watch?v=GhQdlIFylQ8
-To see the exercises open the file 'program.cs'
+C# exercises following this youtube tutorial: https://www.youtube.com/watch?v=GhQdlIFylQ8     
+
+To see the exercises open the file 'program.cs', the other files are classes.
 
 Exercises about:
 
