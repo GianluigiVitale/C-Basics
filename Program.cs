@@ -129,6 +129,19 @@ namespace c_sharp_try
             Console.WriteLine("I love " + celebrity);
 
 
+            // 11. Arrays
+
+
+            string[] friends = new string[10];
+            friends[0] = "Jim";
+            friends[1] = "Kevin";
+
+            int[] luckyNumbers = {1, 2, 3, 4, 5};
+            luckyNumbers[1] = 900;
+
+            Console.WriteLine(luckyNumbers[1]);
+            Console.WriteLine(luckyNumbers[2]);
+
             Console.ReadLine();
         }
     }
