@@ -362,6 +362,14 @@ namespace c_sharp_try
 
             Console.WriteLine(avengers.Rating);
 
+
+            // 29. Static Class Attributes
+
+
+            Console.WriteLine(Movie.movieCount);
+
+
+
             Console.ReadLine();
         }
 

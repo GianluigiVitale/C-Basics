@@ -11,12 +11,14 @@ namespace c_sharp_try
         public string title;
         public string director;
         private string rating;
+        public static int movieCount = 0;
 
         public Movie(string aTitle, string aDirector, string aRating)
         {
             title = aTitle;
             director = aDirector;
             Rating = aRating;
+            movieCount++;
         }
 
         public string Rating
