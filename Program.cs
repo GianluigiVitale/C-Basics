@@ -85,6 +85,19 @@ namespace c_sharp_try
             Console.WriteLine(Math.Max(40, 30));
             Console.WriteLine(Math.Round(4.3));
 
+
+            // 8. Getting user input
+
+
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter your age: ");
+            string ageInput = Console.ReadLine();
+
+            Console.WriteLine("Hello " + name + " you are " + ageInput);
+
+
             Console.ReadLine();
         }
     }
