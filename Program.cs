@@ -352,7 +352,16 @@ namespace c_sharp_try
 
             Console.WriteLine(student1.HasHonors());
             Console.WriteLine(student2.HasHonors());
-            
+
+
+            // 28. Getters & Setters
+
+
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+
+            Console.WriteLine(avengers.Rating);
+
             Console.ReadLine();
         }
 
