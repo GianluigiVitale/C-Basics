@@ -154,6 +154,22 @@ namespace c_sharp_try
 
             Console.WriteLine(Cube(5));
 
+
+            // 14. If Statements
+
+
+            bool isFemale = true;
+            bool isTall = true;
+
+            if (isFemale && isTall) {
+                Console.WriteLine("You are a tall female");
+            } else if (isFemale && !isTall) {
+                Console.WriteLine("You are a short female");
+            } else {
+                Console.WriteLine("You are either not female or not tall or both");
+            }
+
+
             Console.ReadLine();
         }
 
@@ -164,7 +180,7 @@ namespace c_sharp_try
 
         static int Cube(int num)                   // cube of a number
         {
-            int result = Math.Pow(num, 3);
+            int result = num * num * num;
 
             return result;
         }
