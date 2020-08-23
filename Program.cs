@@ -175,6 +175,33 @@ namespace c_sharp_try
 
             Console.WriteLine(GetMax(5, 4));
 
+
+            // 15. Building a Better Calculator
+
+
+            Console.Write("Enter a number: ");
+            double numFirst = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Operator: ");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter a number: ");
+            double numSecond = Convert.ToDouble(Console.ReadLine());
+            
+            if (op == "+") {
+                Console.WriteLine(numFirst + numSecond);
+            } else if (op == "-") {
+                Console.WriteLine(numFirst - numSecond);
+            } else if (op == "*") {
+                Console.WriteLine(numFirst * numSecond);
+            } else if (op == "/") {
+                Console.WriteLine(numFirst / numSecond);
+            } else {
+                Console.WriteLine("Invalid operator");
+            }
+
+
+
             Console.ReadLine();
         }
 
