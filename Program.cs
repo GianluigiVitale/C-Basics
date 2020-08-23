@@ -170,6 +170,11 @@ namespace c_sharp_try
             }
 
 
+            // 14. If Statements (con't)
+
+
+            Console.WriteLine(GetMax(5, 4));
+
             Console.ReadLine();
         }
 
@@ -181,6 +186,15 @@ namespace c_sharp_try
         static int Cube(int num)                   // cube of a number
         {
             int result = num * num * num;
+
+            return result;
+        }
+
+        static int GetMax(int num1, int num2)
+        {
+            int result;
+
+            result = num1 > num2 ? num1 : num2;
 
             return result;
         }
