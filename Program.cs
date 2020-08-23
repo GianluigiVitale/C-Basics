@@ -293,6 +293,29 @@ namespace c_sharp_try
                     or
                     multi-line
                 */
+
+
+
+            // 24. Exception Handling
+
+
+            try
+            {
+                Console.Write("Enter a number: ");
+                int numImput = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Enter another number: ");
+                int numImput1 = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
             Console.ReadLine();
         }
 
