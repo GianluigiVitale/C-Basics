@@ -257,12 +257,20 @@ namespace c_sharp_try
 
             // 20. For Loops
 
+
             int[] rndNumbers = {1, 2, 3, 4, 5};
 
             for (int i = 0; i < rndNumbers.Length; i++) {
                 Console.WriteLine(rndNumbers[i]);
             }
 
+
+            // 21. Building an Exponent Method
+
+
+            Console.WriteLine(GetPow(4, 3));
+
+            
             Console.ReadLine();
         }
 
@@ -278,7 +286,7 @@ namespace c_sharp_try
             return result;
         }
 
-        static int GetMax(int num1, int num2)
+        static int GetMax(int num1, int num2)   // given two int returns the max
         {
             int result;
 
@@ -287,7 +295,7 @@ namespace c_sharp_try
             return result;
         }
 
-        static string GetDay(int dayNum)
+        static string GetDay(int dayNum)        // given the number of the day of the week returns the day
         {
             string dayName;
 
@@ -319,6 +327,17 @@ namespace c_sharp_try
             }
 
             return dayName;
+        }
+
+        static int GetPow(int baseNum, int powNum)      // returns the base num to the power of n
+        {
+            int result = 1;
+
+            for (int i = 1; i <= powNum; i++) {
+                result = result * baseNum;
+            }
+
+            return result;
         }
     }
 }
