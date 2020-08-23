@@ -209,7 +209,6 @@ namespace c_sharp_try
 
             // 18. While Loops
 
-
             int index = 1;
             int index1 = 1;
 
@@ -250,12 +249,19 @@ namespace c_sharp_try
             }
 
             if (outOfGuesses) {
-                Console.Write("You Lose!");
+                Console.WriteLine("You Lose!");
             } else {
-                Console.Write("You Win!");
+                Console.WriteLine("You Win!");
             }
 
 
+            // 20. For Loops
+
+            int[] rndNumbers = {1, 2, 3, 4, 5};
+
+            for (int i = 0; i < rndNumbers.Length; i++) {
+                Console.WriteLine(rndNumbers[i]);
+            }
 
             Console.ReadLine();
         }
