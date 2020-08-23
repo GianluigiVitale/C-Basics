@@ -273,8 +273,9 @@ namespace c_sharp_try
 
             // 22. 2d Arrays
 
+
             int[,] myArray = new int[2,3];
-            
+
             int[,] numberGrid = {
                 {1, 2},
                 {3, 4},
@@ -284,6 +285,14 @@ namespace c_sharp_try
             Console.WriteLine(numberGrid[0, 0]);
             Console.WriteLine(numberGrid[1, 1]);
 
+
+            // 23. Comments
+
+                /*
+                    comments are made with two forward slash '//' (single line)
+                    or
+                    multi-line
+                */
             Console.ReadLine();
         }
 
