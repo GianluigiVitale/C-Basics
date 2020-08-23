@@ -270,7 +270,20 @@ namespace c_sharp_try
 
             Console.WriteLine(GetPow(4, 3));
 
+
+            // 22. 2d Arrays
+
+            int[,] myArray = new int[2,3];
             
+            int[,] numberGrid = {
+                {1, 2},
+                {3, 4},
+                {5, 6},
+            };
+
+            Console.WriteLine(numberGrid[0, 0]);
+            Console.WriteLine(numberGrid[1, 1]);
+
             Console.ReadLine();
         }
 
