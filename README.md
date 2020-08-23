@@ -1,4 +1,7 @@
-C# exercises about the following points:
+C# exercises following this youtube tutorial: https://www.youtube.com/watch?v=GhQdlIFylQ8
+To see the exercises open the file 'program.cs'
+
+Exercises about:
 
 1. Introduction
 2. Installation & Setup

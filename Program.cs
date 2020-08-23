@@ -369,6 +369,11 @@ namespace c_sharp_try
             Console.WriteLine(Movie.movieCount);
 
 
+            // 30. Static Methods & Classes
+
+
+            UsefulTools.SayHi("Mike");
+
 
             Console.ReadLine();
         }
