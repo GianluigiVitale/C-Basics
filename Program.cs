@@ -206,6 +206,25 @@ namespace c_sharp_try
 
             Console.WriteLine(GetDay(0));
 
+
+            // 18. While Loops
+
+
+            int index = 1;
+            int index1 = 1;
+
+            while (index <= 5) {
+                Console.WriteLine(index);
+
+                index++;
+            }
+
+            do {
+                Console.WriteLine(index1);
+
+                index1++;
+            } while (index1 <= 5)
+
             Console.ReadLine();
         }
 
